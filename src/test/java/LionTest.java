@@ -12,7 +12,7 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertThrows;
 
 @RunWith(MockitoJUnitRunner.class)
-public class LionTests {
+public class LionTest {
 
   @Mock
   Feline feline;

@@ -1,7 +1,5 @@
 import com.example.Feline;
 import org.junit.Test;
-import org.junit.runner.RunWith;
-import org.junit.runners.Parameterized;
 
 import java.util.List;
 
@@ -9,7 +7,7 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertThrows;
 
 
-public class FelineTests {
+public class FelineTest {
 
   Feline feline = new Feline(); // создали экземпляр класса
 

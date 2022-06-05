@@ -5,17 +5,15 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 
-import java.util.List;
-
 import static org.junit.Assert.assertEquals;
 
 @RunWith(Parameterized.class)
-public class LionParamsTests {
+public class LionParamsTest {
   private final String sex;
   private final Boolean expected;
   Feline feline;
 
-  public LionParamsTests(String sex, Boolean expected) {
+  public LionParamsTest(String sex, Boolean expected) {
     this.sex = sex;
     this.expected = expected;
   }

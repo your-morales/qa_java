@@ -8,11 +8,11 @@ import java.util.List;
 import static org.junit.Assert.assertEquals;
 
 @RunWith(Parameterized.class)
-public class FelineParamsTests {
+public class FelineParamsTest {
   private final String animalKind;
   private final List<String> expected;
 
-  public FelineParamsTests(String animalKind, List<String> expected) {
+  public FelineParamsTest(String animalKind, List<String> expected) {
     this.animalKind = animalKind;
     this.expected = expected;
   }
